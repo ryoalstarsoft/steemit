@@ -1,0 +1,51 @@
+.sub-menu {
+    li {
+        padding: .7rem 1rem;
+        a {
+            padding: 0px;
+        }
+    }
+    li:last-child {
+        padding: 0 0 0 1rem;
+    }
+}
+
+li.Header__userpic {
+  padding: 0;
+  position: relative;
+  a {
+      padding: 6px;
+  }
+  .Userpic {
+    width: 36px !important;
+    height: 36px !important;
+    border: 1px solid #e0e0e0;
+  }
+}
+
+.TopRightMenu__notificounter {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    > .NotifiCounter {
+        display: block;
+    }
+}
+
+div.Header__top
+{
+    li.Header__search {
+        padding: 0;
+        > a {
+            padding: 14px;
+        }
+    }
+    li.Header__hamburger.toggle-menu {
+        &.toggle-menu {
+            padding-left: 0.25rem;
+        }
+        > a {
+            padding: 14px;
+        }
+    }
+}
